@@ -1,0 +1,125 @@
+/*  color - blue ::::  #130f40
+color  orange ::::    #f44336  */
+
+*{
+    color:#130f40;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.text-div{
+    margin-left: 10%;
+}
+.text1,.text2,.text3,.text4{
+    font-weight: bold;
+    margin:3% 0px;
+    letter-spacing: 3px;
+}
+
+.text2{
+    color:#f44336;
+    font-size:3.5em;
+    font-weight: bolder;
+}
+.text3{
+    font-size: 2.5em;
+}
+.landing-image-div{
+    padding: 2%;
+    margin-right: 10%;
+}
+.social-icons{
+    margin-left: 10%;
+}
+.footer-icons{
+    margin-top: 15px;
+}
+.footer-li{
+    display: inline;
+    margin-right:15%;
+}
+.material-icon{
+    transform: scale(1.4);
+    cursor: pointer;
+    filter: drop-shadow(5px 2px 5px #222);
+}
+.MuiSvgIcon-root{
+    fill:#f44336 !important;
+}
+
+@media only screen and (max-width: 991px){
+    .text-div{
+        margin-left: 5%;
+    }
+    .text1{
+        font-size: 1.8em;
+    }
+    .text2{
+        font-size: 2.5em;
+    }
+    .text3{
+        font-size: 1.8em;
+    }
+    .text4{
+        font-size: 1.5em;
+    }
+    .landing-image-div{
+        width:60%;
+       float: right;
+    }
+    .footer-li{
+        display: inline;
+        margin:35px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .text1{
+        font-size: 1.4em;
+    }
+    .text2{
+        font-size: 2em;
+    }
+    .text3{
+        font-size: 1.4em;
+    }
+    .text4{
+        font-size: 1em;
+    }
+    .landing-image-div{
+        margin-top: 5%;
+        width:75%;
+       float: right;
+    }
+    .social-icons{
+        margin-left: -8%;
+    }
+    .footer-li{
+        display: inline;
+        margin:15px;
+    }
+    .material-icon{
+        transform: scale(1.2);
+        cursor: pointer;
+        filter: drop-shadow(5px 2px 5px #222);
+    }
+}
+@media only screen and (max-width: 360px){
+    .text1{
+        font-size: 1.2em;
+    }
+    .text2{
+        font-size: 1.8em;
+    }
+    .text3{
+        font-size: 1.2em;
+    }
+    .text4{
+        font-size: 1em;
+    }
+    .material-icon{
+        transform: scale(1.1);
+        cursor: pointer;
+        filter: drop-shadow(5px 2px 5px #222);
+    }
+}

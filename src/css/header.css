@@ -1,0 +1,33 @@
+/*  color - blue ::::  #130f40
+color  orange ::::    #f44336  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.my-nav{
+    margin:0 5%;
+    border-bottom: 2px solid #f44336c9;
+}
+.navbar{
+    padding: 0;
+}
+.header-logo{
+    color:#f44336;
+    font-size: 200%;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.nav-link{
+    color:#130f40;
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.menu-item{
+    padding: 0px 20px;
+}
+.navbar-toggler{
+    color:#f44336;
+    border:none;
+}
