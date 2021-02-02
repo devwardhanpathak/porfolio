@@ -6,9 +6,10 @@ color  orange ::::    #f44336  */
     font-family: 'Roboto', sans-serif;
 }
 .my-nav{
-    margin:0 5%;
+    margin:0 4%;
     border-bottom: 2px solid #f44336c9;
 }
+
 .navbar{
     padding: 0;
 }

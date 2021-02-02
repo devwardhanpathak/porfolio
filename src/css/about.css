@@ -1,0 +1,63 @@
+/*  color - blue ::::  #130f40
+color  orange ::::    #f44336  */
+
+.about-heading{
+    margin:10px auto;
+    color: #f44336;
+    font-weight: bolder; 
+    border-bottom: 2px solid #130f40 ;   
+}
+.about-pic{
+    width: 75%;
+    margin: 10%;
+}
+.about-para-div{
+    margin:2%;
+}
+.about-para-heading{
+    text-align: center;
+    font-weight: bolder;
+    width: 100%;
+}
+.name-about{
+    color: #f44336;
+}
+.aboutpara{
+    font-size: 25px;
+    font-weight:bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+@media only screen and (max-width: 360px){
+    .about-heading{
+        font-size: 35px;
+    }
+    .about-para-heading{
+        font-size: 25px;
+    }
+    .aboutpara{
+        font-size:15px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .about-heading{
+        font-size: 35px;
+    }
+    .about-para-heading{
+        font-size: 30px;
+    }
+    .aboutpara{
+        font-size:20px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .about-heading{
+        font-size: 25px;
+    }
+    .about-para-heading{
+        font-size: 22px;
+    }
+    .aboutpara{
+        font-size:15px;
+    }
+}
