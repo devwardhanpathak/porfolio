@@ -3,16 +3,21 @@ import Header from './Header';
 import Landing from './Landing';
 import About from './About';
 import Skill from './Skill';
+import Projects from './ProjectComponent';
+import Contact from './Contact';
+import Footer from './Footer';
 export class Main extends Component {
+
     render() {
         return (
             <>
                 <Header />
-                <div className="container-fluid">
-                    <div className="row"><Landing /></div>
-                    <div className="row"><About /></div>
-                    <div className="row"><Skill /></div>
-                </div>
+                <Landing />
+                <About />
+                <Skill />
+                <Projects />
+                <Contact />
+                <Footer />
             </>
         );
     };

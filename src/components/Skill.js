@@ -1,5 +1,5 @@
 import React from 'react';
-import skillpic from '../images/skill.svg';
+import skillpic from './images/skill.svg';
 import '../css/skill.css';
 
 const Skill = () => {

@@ -25,20 +25,16 @@ color  orange ::::    #f44336  */
 .text3{
     font-size: 2.5em;
 }
-.landing-image-div{
-    padding: 2%;
-    margin-right: 10%;
+.landing-image{
+    width: 75%;
+    margin: 10%;
 }
-
 .social-icons{
-    margin-left: 10%;
-}
-.footer-icons{
-    margin-top: 15px;
+    width: 70%;
 }
 .footer-li{
     display: inline;
-    margin-right:15%;
+    margin: 20px 35px;
 }
 .material-icon{
     transform: scale(1.4);

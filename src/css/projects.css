@@ -1,0 +1,35 @@
+/*  color - blue ::::  #130f40
+color  orange ::::    #f44336  */
+
+.project-heading{
+  margin: 2% auto;
+  color: #f44336;
+  font-weight: bold;
+  border-bottom: 2px solid #130f40;
+}
+
+.card-title{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.card-text{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.btn-secondary{
+    background-color: #f44336 !important;
+    border: none !important;
+}
+.btn-secondary:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.footer-div{
+    background-color: #130f40;
+}
+.footer-heading{
+    color: #f44336;
+    font-weight: bold;
+    margin: 2% auto;
+}

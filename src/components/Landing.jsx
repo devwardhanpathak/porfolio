@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/landing.css';
-import Header from './Header';
-import WebDevimg from '../images/webdev.svg';
+import WebDevimg from './images/webdev.svg';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
@@ -41,9 +40,7 @@ const Landing = () => {
                         </div>
                     </div>
                     <div className="col-lg">
-                        <div className="landing-image-div">
-                            <img className="img-fluid" src={WebDevimg} alt="image" />
-                        </div>
+                        <img className="img-fluid landing-image" src={WebDevimg} alt="image" />
                     </div>
                 </div>
             </div>

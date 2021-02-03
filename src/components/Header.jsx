@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {
     Nav, Navbar, NavbarToggler, Collapse, NavItem
 } from 'reactstrap';
-import DehazeIcon from '@material-ui/icons/Dehaze';
 import '../css/header.css';
 
 class Header extends Component {
@@ -11,13 +10,15 @@ class Header extends Component {
 
         this.toggleNav = this.toggleNav.bind(this);
         this.state = {
-            isNavOpen: false
+            isNavOpen: false,
+            clicked: true
         };
     }
 
     toggleNav() {
         this.setState({
-            isNavOpen: !this.state.isNavOpen
+            isNavOpen: !this.state.isNavOpen,
+            clicked: !this.state.clicked
         });
     }
     render() {
@@ -34,7 +35,7 @@ class Header extends Component {
                                 <NavItem className="menu-item">Contact Me</NavItem>
                             </Nav>
                         </Collapse>
-                        <NavbarToggler onClick={this.toggleNav}><span className="nav-icon"><DehazeIcon /></span></NavbarToggler>
+                        <NavbarToggler onClick={this.toggleNav}><span className={this.state.clicked ? "fas fa-bars" : "fas fa-times"}></span></NavbarToggler>
                     </div>
                 </Navbar>
             </div>

@@ -32,3 +32,8 @@ color  orange ::::    #f44336  */
     color:#f44336;
     border:none;
 }
+
+.fa-bars,.fa-times{
+    color: #f44336;
+    transform:scale(1.2);
+}
