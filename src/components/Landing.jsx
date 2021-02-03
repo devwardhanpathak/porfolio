@@ -1,18 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../css/landing.css';
 import WebDevimg from './images/webdev.svg';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 const Landing = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 2000,
+            easing: 'ease-in-out-sine'
+        });
+    }, []);
+
     return (
         <>
             <div className="container-fluid mt-5">
                 <div className="row">
-                    <div className="col-lg m-auto">
+                    <div data-aos="fade-right" className="col-lg m-auto">
                         <div className="text-div">
                             <h2 className="text1">Namaste, I am</h2>
                             <h1 className="text2">Devwardhan Pathak</h1>
@@ -39,7 +48,7 @@ const Landing = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg">
+                    <div data-aos="zoom-in" className="col-lg">
                         <img className="img-fluid landing-image" src={WebDevimg} alt="image" />
                     </div>
                 </div>

@@ -7,19 +7,26 @@ import '../css/projects.css';
 import Munim from './images/munim.PNG';
 import Rummy from './images/rummy.PNG';
 import Portfolio from './images/portfolio.png';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 class Projects extends Component {
     constructor(props) {
         super(props);
     };
-
+    componentDidMount() {
+        AOS.init({
+            duration: 2000
+        });
+    }
 
     render() {
         return (
-            <div className="container">
-                <div className="row" >
+            <div id="projects" className="container">
+                <div data-aos="fade-down" className="row" >
                     <h1 className="project-heading">Projects</h1>
                 </div>
-                <div className="row">
+                <div data-aos="fade-left" className="row">
                     <div className="col-md-5 m-4 col-sm-6">
                         <Card>
                             <CardImg top width="100%" src={Munim} alt="Munim" />

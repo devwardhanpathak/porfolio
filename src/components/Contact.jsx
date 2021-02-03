@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import '../css/contact.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 2000
+        });
+    }, []);
+
     function sendEmail(e) {
         e.preventDefault();
 
@@ -16,11 +25,11 @@ const Contact = () => {
     };
     return (
         <>
-            <div className="container-fluid">
-                <div className='row'>
+            <div id="contact" className="container-fluid">
+                <div data-aos="fade-down" className='row'>
                     <h1 className="contact-heading">Contact</h1>
                 </div>
-                <div className="row">
+                <div data-aos="fade-right" className="row">
                     <div className="col">
                         <div className="contact-form-div mt-4">
                             <form onSubmit={sendEmail}>

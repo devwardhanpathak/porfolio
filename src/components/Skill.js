@@ -1,15 +1,25 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import skillpic from './images/skill.svg';
 import '../css/skill.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const Skill = () => {
+
+    useEffect(() => {
+        AOS.init({
+            duration: 2000
+        });
+    }, []);
+
     return (
         <>
-            <div className="container-fluid mt-lg-5">
-                <div className="row">
+            <div id="skill" className="container-fluid mt-lg-5">
+                <div data-aos="fade-down" className="row">
                     <h1 className="skill-heading">Skills</h1>
                 </div>
-                <div className="row mt-3">
+                <div data-aos="fade-right" className="row mt-3">
                     <div className="col-lg">
                         <div className="container-fluid skill-text-div">
                             <div className="row">

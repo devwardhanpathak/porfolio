@@ -33,3 +33,9 @@ color  orange ::::    #f44336  */
     font-weight: bold;
     margin: 2% auto;
 }
+
+@media screen and (max-width:420px){
+    .footer-heading{
+        font-size: 35px;
+    }
+}

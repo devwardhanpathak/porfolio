@@ -27,7 +27,14 @@ color  orange ::::    #f44336  */
 }
 .menu-item{
     padding: 0px 20px;
+    cursor: pointer;
 }
+
+.menu-item:hover{
+    color: #f44336;
+    transition: .2s;
+}
+
 .navbar-toggler{
     color:#f44336;
     border:none;
@@ -36,4 +43,10 @@ color  orange ::::    #f44336  */
 .fa-bars,.fa-times{
     color: #f44336;
     transform:scale(1.2);
+}
+
+@media screen and (max-width:420px){
+    .header-logo{
+        font-size: 1.5rem;
+    }
 }
