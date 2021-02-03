@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    CardTitle, Button
 } from 'reactstrap';
 import '../css/projects.css';
 import Munim from './images/munim.PNG';
@@ -26,7 +26,7 @@ class Projects extends Component {
                 <div data-aos="fade-down" className="row" >
                     <h1 className="project-heading">Projects</h1>
                 </div>
-                <div data-aos="fade-left" className="row">
+                <div data-aos="fade-up" className="row">
                     <div className="col-md-5 m-4 col-sm-6">
                         <Card>
                             <CardImg top width="100%" src={Munim} alt="Munim" />

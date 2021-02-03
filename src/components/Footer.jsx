@@ -7,6 +7,9 @@ const Footer = () => {
                 <div className="row">
                     <h1 className="footer-heading">Devwardhan</h1>
                 </div>
+                <div className="row">
+                    <h5 className="footer-copy">&#169; 2021</h5>
+                </div>
             </div>
         </>
     );

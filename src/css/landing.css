@@ -4,10 +4,6 @@ color  orange ::::    #f44336  */
 *{
     color:#130f40;
 }
-.container-fluid{
-    margin: 0;
-    padding: 0;
-}
 .text-div{
     margin-left: 10%;
 }

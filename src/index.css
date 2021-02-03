@@ -6,5 +6,12 @@ color  orange ::::    #f44336  */
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
+.container-fluid{
+  width: 100%;
+}
+.col-lg{
+  padding-right: 0px;
+  padding-left: 0px;
+}

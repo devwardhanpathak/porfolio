@@ -25,13 +25,14 @@ color  orange ::::    #f44336  */
     transition: .5s;
 }
 
-.footer-div{
-    background-color: #130f40;
-}
 .footer-heading{
     color: #f44336;
     font-weight: bold;
     margin: 2% auto;
+}
+.footer-copy{
+    font-weight: bold;
+    margin: 0 auto;
 }
 
 @media screen and (max-width:420px){

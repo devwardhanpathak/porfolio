@@ -19,7 +19,7 @@ const Skill = () => {
                 <div data-aos="fade-down" className="row">
                     <h1 className="skill-heading">Skills</h1>
                 </div>
-                <div data-aos="fade-right" className="row mt-3">
+                <div data-aos="fade-up" className="row mt-3">
                     <div className="col-lg">
                         <div className="container-fluid skill-text-div">
                             <div className="row">

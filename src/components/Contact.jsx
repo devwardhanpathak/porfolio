@@ -29,7 +29,7 @@ const Contact = () => {
                 <div data-aos="fade-down" className='row'>
                     <h1 className="contact-heading">Contact</h1>
                 </div>
-                <div data-aos="fade-right" className="row">
+                <div data-aos="fade-up" className="row">
                     <div className="col">
                         <div className="contact-form-div mt-4">
                             <form onSubmit={sendEmail}>
