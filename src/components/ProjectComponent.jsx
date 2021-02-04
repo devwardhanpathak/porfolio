@@ -28,7 +28,7 @@ class Projects extends Component {
                 </div>
                 <div data-aos="fade-up" className="row">
                     <div className="col-md-5 m-4 col-sm-6">
-                        <Card>
+                        <Card data-aos="flip-left">
                             <CardImg top width="100%" src={Munim} alt="Munim" />
                             <CardBody>
                                 <CardTitle tag="h5">Munim</CardTitle>
@@ -40,7 +40,7 @@ class Projects extends Component {
                         </Card>
                     </div>
                     <div className="col-md-5 m-4 col-sm-6">
-                        <Card>
+                        <Card data-aos="flip-right">
                             <CardImg top width="100%" src={Rummy} alt="Rummy" />
                             <CardBody>
                                 <CardTitle tag="h5">Rummy</CardTitle>
@@ -51,7 +51,7 @@ class Projects extends Component {
                         </Card>
                     </div>
                     <div className="col-md-5 m-4 col-sm-6">
-                        <Card>
+                        <Card data-aos="flip-left">
                             <CardImg top width="100%" src={Portfolio} alt="Rummy" />
                             <CardBody>
                                 <CardTitle tag="h5">Portfolio</CardTitle>

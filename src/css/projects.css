@@ -33,6 +33,10 @@ color  orange ::::    #f44336  */
 .footer-copy{
     font-weight: bold;
     margin: 0 auto;
+    color: #f44336;
+}
+.footer-div{
+    background-color: #130f40;
 }
 
 @media screen and (max-width:420px){

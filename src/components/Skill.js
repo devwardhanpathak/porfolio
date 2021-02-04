@@ -24,26 +24,26 @@ const Skill = () => {
                         <div className="container-fluid skill-text-div">
                             <div className="row">
                                 <div className="col">
-                                    <h1 className="skill-text">HTML</h1>
+                                    <h1 data-aos="zoom-in" className="skill-text">HTML</h1>
                                 </div>
                                 <div className="col">
-                                    <h1 className="skill-text">CSS</h1>
+                                    <h1 data-aos="zoom-out" className="skill-text">CSS</h1>
                                 </div>
                                 <div className="w-100">
                                 </div>
                                 <div className="col">
-                                    <h1 className="skill-text">JavaScript</h1>
+                                    <h1 data-aos="zoom-in" className="skill-text">JavaScript</h1>
                                 </div>
                                 <div className="w-100"></div>
                                 <div className="col">
-                                    <h1 className="skill-text">React.js</h1>
+                                    <h1 data-aos="zoom-out" className="skill-text">React.js</h1>
                                 </div>
                                 <div className="col">
-                                    <h1 className="skill-text">Bootstrap</h1>
+                                    <h1 data-aos="zoom-in" className="skill-text">Bootstrap</h1>
                                 </div>
                                 <div className="w-100"></div>
                                 <div className="col">
-                                    <h1 className="skill-text">GitHub</h1>
+                                    <h1 data-aos="zoom-out" className="skill-text">GitHub</h1>
                                 </div>
                             </div>
                         </div>

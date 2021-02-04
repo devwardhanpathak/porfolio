@@ -20,7 +20,7 @@ const Landing = () => {
         <>
             <div className="container-fluid mt-5">
                 <div className="row">
-                    <div data-aos="fade-down" className="col-lg m-auto">
+                    <div data-aos="fade-right" className="col-lg m-auto">
                         <div className="text-div">
                             <h2 className="text1">Namaste, I am</h2>
                             <h1 className="text2">Devwardhan Pathak</h1>
